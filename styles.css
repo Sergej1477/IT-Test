@@ -70,15 +70,17 @@ body {
 }
 
 .h6 {
-  /* display: contents; */
+  display: contents;
   color: #525252;
   font-size: 24px;
   font-weight: 500;
 }
 
 .text-small {
+  display: list-item;
   font-size: 18px;
   font-weight: 400;
+  line-height: 180%;
 }
 
 .mt-180 {
@@ -144,8 +146,16 @@ body {
   background-color: #f8f8f8;
 }
 
+.preview-text {
+  line-height: 150%;
+}
+
 .preview-buttons {
   padding-top: 50px;
+}
+
+.preview-icons {
+  margin-right: 6px;
 }
 
 .promo-block {
@@ -168,4 +178,9 @@ body {
 
 .block-red {
   border-top: 2px solid #ea384d;
+}
+
+.block-item {
+  margin-top: 24px;
+  margin-left: 24px;
 }
