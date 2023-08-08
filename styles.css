@@ -83,8 +83,14 @@ body {
   line-height: 150%;
 }
 
-.text-small {
+.text-small__drop {
   display: list-item;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 180%;
+}
+
+.text-small {
   font-size: 18px;
   font-weight: 400;
   line-height: 180%;
@@ -104,6 +110,10 @@ body {
 
 .mt-24 {
   margin-top: 24px;
+}
+
+.mt-20 {
+  margin-top: 20px;
 }
 
 .pt-121 {
@@ -211,18 +221,36 @@ body {
 
 .promo3 {
   margin-top: 60px;
- display: flex;
-
-
-  /* flex-wrap: wrap; */
-  /* width: 344px; */
-  /* height: 258px; */
-  border-top: 3px dotted #28cb84;
-
+  display: flex;
+  flex-wrap: wrap;
+  gap: 66px;
 }
 
 .block3 {
+    border-top: 3px dotted yellowgreen;
   width: 344px;
-  flex-wrap: wrap;
+  padding-top: 20px;
+}
 
+.technology-slang {
+  margin-top: 60px;
+  display: flex;
+  gap: 5px;
+}
+
+.technology-stek {
+  margin-top: 72px;
+  height: 596px;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px;
+}
+
+.technology-item {
+  padding-top: 24px;
+}
+
+.technology-skils {
+  width: 180px;
 }
